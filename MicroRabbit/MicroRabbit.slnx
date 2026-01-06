@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Domain/" />
+  <Folder Name="/Infra.Bus/" />
+  <Folder Name="/Infra.IoC/" />
+  <Folder Name="/Microservice/" />
+  <Folder Name="/Presentation/" />
+</Solution>
