@@ -13,6 +13,13 @@ namespace MicroRabbit.Banking.Data.Context
         public BankingDbContext(DbContextOptions<BankingDbContext> options) : base(options)
         {
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Account>(entity =>
+            {
+                entity.Property(e => e.AccountBalance).HasPrecision(18,4);
+            });
+        }
         public DbSet<Account> Accounts { get; set; }
     }
 }
