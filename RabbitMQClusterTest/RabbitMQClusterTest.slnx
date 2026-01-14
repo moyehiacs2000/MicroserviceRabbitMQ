@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="Consumer/Consumer.csproj" />
-  <Project Path="CreateQueues/CreateQueues.csproj" />
-  <Project Path="Publisher/Publisher.csproj" />
-  <Project Path="RabbitMQ/RabbitMQ.csproj" />
-  <Project Path="TestCase1/TestCase1.csproj" />
-</Solution>
