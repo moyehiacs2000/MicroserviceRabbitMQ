@@ -17,8 +17,7 @@ namespace MicroRabbit.Banking.Data.Context
         {
             modelBuilder.Entity<Account>(entity =>
             {
-                entity.Property(e => e.AccountBalance)
-                      .HasPrecision(18, 4); // or 18,2 depending on your business rules
+                entity.Property(e => e.AccountBalance).HasPrecision(18,4);
             });
         }
         public DbSet<Account> Accounts { get; set; }
