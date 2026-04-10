@@ -22,5 +22,18 @@
   <Folder Name="/Microservice/Banking/Domain/">
     <Project Path="MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj" Id="25157f67-6852-46b4-a911-e2a69f006a78" />
   </Folder>
+  <Folder Name="/Microservice/Transfer/" />
+  <Folder Name="/Microservice/Transfer/Api/">
+    <Project Path="MicroRabbit.Transfer.Api/MicroRabbit.Transfer.Api.csproj" Id="27119cb9-7f0a-4e47-822a-50889a63eed9" />
+  </Folder>
+  <Folder Name="/Microservice/Transfer/Application/">
+    <Project Path="MicroRabbit.Transfer.Application/MicroRabbit.Transfer.Application.csproj" Id="bcc1274a-0464-4139-a4d9-88c804b9d56d" />
+  </Folder>
+  <Folder Name="/Microservice/Transfer/Data/">
+    <Project Path="MicroRabbit.Transfer.Data/MicroRabbit.Transfer.Data.csproj" Id="658b7ca1-27ef-4178-b708-4d0577281bed" />
+  </Folder>
+  <Folder Name="/Microservice/Transfer/Domain/">
+    <Project Path="MicroRabbit.Transfer.Domain/MicroRabbit.Transfer.Domain.csproj" Id="cd20777c-842f-42a2-bc74-494be03287d6" />
+  </Folder>
   <Folder Name="/Presentation/" />
 </Solution>
